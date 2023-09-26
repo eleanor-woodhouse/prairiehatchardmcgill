@@ -7,9 +7,10 @@ const navigationLink = {
       title: "title",
       targetTitle: "target.name",
     },
-    prepare: ({ title, targetTitle }: { title: any; targetTitle: any }) => ({
-      title: title || targetTitle,
-    }),
+    // TODO Newly failing to compile at this point due to type errors. Need to check Sanity and Typescript versions, and Sanity docs.
+    // prepare: ({ title, targetTitle }: { title: any; targetTitle: any }) => ({
+    //   title: title || targetTitle,
+    // }),
   },
   fields: [
     {
