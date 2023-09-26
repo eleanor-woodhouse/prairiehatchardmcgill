@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+@mixin generalImage {
+
+    box-shadow: 5px 5px 15px grey;
+    margin: 0.6rem 0rem 0.6rem 0rem;
+}
+
+.landscapeImage {
+    @include generalImage();
+    max-width: 500px;
+}
+
+.portraitImage {
+    @include generalImage();
+    max-height: 500px;
+}
+
+.text {
+    margin-right: 2.5rem;
+    line-height: 20px;
+    // font-family: 'Karla', sans-serif;
+}

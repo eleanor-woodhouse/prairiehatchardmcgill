@@ -1,0 +1,44 @@
+@import "variables";
+
+.nav {
+    width: 30%;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    // font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .heading {
+    box-shadow: 3px 3px 2px grey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0.3em;
+    margin-left: 0.3rem;
+    background-color: $primary-accent;
+  }
+
+  .sectionsContainer {
+    margin-top: 2rem;
+  }
+
+  .section {
+    margin-top: 1em;
+
+    a {
+        margin-left: 0.9em;
+    }
+  }
+
+  .otherLinks {
+    margin-top: 2em;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .otherLink {
+    margin-bottom: 1em;
+    text-align: center;  
+  }
